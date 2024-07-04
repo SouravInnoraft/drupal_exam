@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en-gb
+uuid: 0494810b-370a-4d47-bd60-b28317c2214a
+name: 'Ecommerce portal'
+mail: sourav.chandra@innoraft.com
+slogan: 'The best place to understand Drupal concepts'
+page:
+  403: /node/2
+  404: /node/1
+  front: /index
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en-gb
+mail_notification: null
