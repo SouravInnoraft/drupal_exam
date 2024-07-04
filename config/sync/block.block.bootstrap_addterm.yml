@@ -1,0 +1,25 @@
+uuid: 3370d265-2c2e-4976-bd62-652d4fdf3d36
+langcode: en-gb
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:455d45b3-ff85-4b22-b1db-410663f8323d'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: bootstrap_addterm
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:455d45b3-ff85-4b22-b1db-410663f8323d'
+settings:
+  id: 'block_content:455d45b3-ff85-4b22-b1db-410663f8323d'
+  label: 'Add term'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

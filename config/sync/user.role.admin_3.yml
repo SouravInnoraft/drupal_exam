@@ -1,0 +1,26 @@
+uuid: 86aff9ef-1c8e-4436-a604-18b08cc81b23
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.item
+    - taxonomy.vocabulary.product_type
+  module:
+    - field_ui
+    - honeypot
+    - node
+    - system
+    - taxonomy
+id: admin_3
+label: 'Admin 3'
+weight: 6
+is_admin: null
+permissions:
+  - 'access taxonomy overview'
+  - 'administer honeypot'
+  - 'administer menu'
+  - 'administer node form display'
+  - 'administer taxonomy_term display'
+  - 'administer taxonomy_term form display'
+  - 'create item content'
+  - 'create terms in product_type'

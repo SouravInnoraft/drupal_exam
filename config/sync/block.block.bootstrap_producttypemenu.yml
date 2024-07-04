@@ -1,0 +1,29 @@
+uuid: 8296e9c1-f6e3-42b5-8ee1-6f4249f67687
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - system.menu.product-type-menu
+  module:
+    - system
+  theme:
+    - bootstrap
+id: bootstrap_producttypemenu
+theme: bootstrap
+region: header
+weight: -8
+provider: null
+plugin: 'system_menu_block:product-type-menu'
+settings:
+  id: 'system_menu_block:product-type-menu'
+  label: 'Product type menu'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/index\r\n/products/*"
